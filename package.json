@@ -1,0 +1,27 @@
+{
+  "name": "solid-js-ui-library-with-k8s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "build-storybook": "storybook build",
+    "dev": "vite",
+    "preview-storybook": "vite ./storybook-static",
+    "serve": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "start": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solid-js": "^1.7.3"
+  },
+  "devDependencies": {
+    "@storybook/html": "^7.0.6",
+    "@storybook/html-vite": "^7.0.6",
+    "storybook": "^7.0.6",
+    "vite": "^4.2.2",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
